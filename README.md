@@ -1,7 +1,3 @@
-# Retail Site Selection Analytics
-
-**VERSION 1 - DESCRIPTIVE ANALYSIS**
-
 **A. Project Overview**
 
 - This project demonstrates a basic Market Basket Analysis workflow using the Apriori algorithm.
@@ -14,7 +10,7 @@
 - Market Basket Analysis Data (from Kaggle): https://www.kaggle.com/datasets/ahmtcnbs/datasets-for-appiori
 - The dataset is already one-hot encoded at transaction level. After removing the transaction identifier and ensuring boolean input, frequent itemsets are generated based on minimum support. Association rules are then derived and ranked by lift to highlight meaningful co-purchase patterns. 
 
-**D. Key Findings and Actionable Plans**
+**C. Key Findings and Actionable Plans**
 
 **I. Key Findings**
 
@@ -27,7 +23,7 @@
 - Differentiate roles of products: Treat high-support single items as traffic or volume drivers, not primary targets for bundle or cross-sell strategies.
 - Focus cross-sell efforts on high-lift pairs. However, these pairs are suitable candidates for small-scale experiments, minimizing risk while testing potential uplift.
 
-**E. Appendix**
+**D. Appendix**
 
 Top itemsets by support:
      support        itemsets
